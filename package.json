@@ -1,0 +1,6 @@
+{
+  "name": "terra-ledger", "version": "1.0.0", "private": true,
+  "scripts": {"dev":"vite --host 127.0.0.1", "build":"vite build", "preview":"vite preview --host 127.0.0.1", "chain":"hardhat node --hostname 127.0.0.1", "compile":"node scripts/compile.mjs", "deploy":"node scripts/deploy.mjs", "test":"node --test test/registry.test.mjs", "start:local":"node scripts/start.mjs"},
+  "dependencies": {"ethers":"6.15.0", "react":"19.1.1", "react-dom":"19.1.1", "lucide-react":"0.468.0"},
+  "devDependencies": {"vite":"7.1.7", "solc":"0.8.30", "hardhat":"2.28.0"}
+}
